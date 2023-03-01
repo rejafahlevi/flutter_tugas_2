@@ -40,29 +40,29 @@ class _MyHomePageState extends State<MyHomePage> {
       //   _counter = 1;
       // }
 
-      //Bilangan Ganjil Genap
-      // if (_counter % 2 == 0) {
-      //   _text = "Genap";
-      // } else {
-      //   _text = "Ganjil";
-      // }
-
-      //Bilangan Prima
-      _text = "Prima: ";
-      for (int i = 1; i < _counter; i++) {
-        int bil = 0;
-        for (var j = 1; j <= i; j++) {
-          if (i % j == 0) {
-            bil = bil + 1;
-          }
-        }
-        if (bil == 2) {
-          _text += ' ${i}, ';
-        }
+      Bilangan Ganjil Genap
+      if (_counter % 2 == 0) {
+        _text = "Genap";
+      } else {
+        _text = "Ganjil";
       }
 
+      //Bilangan Prima
+      // _text = "Prima: ";
+      // for (int i = 1; i < _counter; i++) {
+      //   int bil = 0;
+      //   for (var j = 1; j <= i; j++) {
+      //     if (i % j == 0) {
+      //       bil = bil + 1;
+      //     }
+      //   }
+      //   if (bil == 2) {
+      //     _text += ' ${i}, ';
+      //   }
+      // }
+
       //Bilangan Kelipatan 3
-      // _text = "Ganjil: ";
+      // _text = "Kelipatan 3 : ";
       // for (int i = 0; i <= _counter; i++) {
       //   if (i == 0) {
       //     _text += '';
@@ -76,6 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
       //     }
       //   }
       // }
+
     });
   }
 
